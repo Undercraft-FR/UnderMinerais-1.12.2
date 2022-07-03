@@ -1,7 +1,10 @@
 package fr.undercraft.underminerals.utils.handler;
 
+import fr.undercraft.underminerals.init.ArmorInit;
 import fr.undercraft.underminerals.init.BlockInit;
 import fr.undercraft.underminerals.init.ItemInit;
+import fr.undercraft.underminerals.init.ToolsInit;
+import fr.undercraft.underminerals.items.ArmorMod;
 import fr.undercraft.underminerals.utils.interfaces.IHasModel;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -18,6 +21,8 @@ public class RegistryHandler
     public static void onItemRegister(RegistryEvent.Register<Item> event)
     {
         event.getRegistry().registerAll(ItemInit.ITEMS.toArray(new Item[0]));
+        event.getRegistry().registerAll(ToolsInit.TOOLS.toArray(new Item[0]));
+        event.getRegistry().registerAll(ArmorInit.ARMORS.toArray(new Item[0]));
     }
 
     @SubscribeEvent
@@ -30,6 +35,19 @@ public class RegistryHandler
     public static void onModelRegister(ModelRegistryEvent event)
     {
         for(Item item : ItemInit.ITEMS)
+        {
+            if(item instanceof IHasModel)
+            {
+                ((IHasModel)item).registerModels();
+            }
+        }
+        for(Item item : ToolsInit.TOOLS)
+        {
+            if(item instanceof IHasModel)
+            {
+                ((IHasModel)item).registerModels();
+            }
+        }for(Item item : ArmorInit.ARMORS)
         {
             if(item instanceof IHasModel)
             {
