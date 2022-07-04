@@ -29,8 +29,8 @@ public class ToolsInit {
     public static final Item.ToolMaterial SWORD_TOOL_GREEN_RUBY = EnumHelper.addToolMaterial("green_ruby_tool", 5, 4000, 40.0f, 25.0f, 18);
     public static final Item.ToolMaterial TOOL_BLUE_RUBY = EnumHelper.addToolMaterial("blue_ruby_tool", 5, 4000, 40.0f, 1.0f, 18);
     public static final Item.ToolMaterial SWORD_TOOL_BLUE_RUBY = EnumHelper.addToolMaterial("blue_ruby_tool", 5, 4000, 40.0f, 25.0f, 18);
-    public static final Item.ToolMaterial TOOL_BLACK_OPALE = EnumHelper.addToolMaterial("black_opale_tool", 5, 4500, 45.0f, 1.0f, 18);
-    public static final Item.ToolMaterial SWORD_TOOL_BLACK_OPALE = EnumHelper.addToolMaterial("black_opale_tool", 5, 4500, 45.0f, 30.0f, 18);
+    public static final Item.ToolMaterial TOOL_BLACK_OPAL = EnumHelper.addToolMaterial("black_opal_tool", 5, 4500, 45.0f, 1.0f, 18);
+    public static final Item.ToolMaterial SWORD_TOOL_BLACK_OPAL = EnumHelper.addToolMaterial("black_opal_tool", 5, 4500, 45.0f, 30.0f, 18);
 
 
     //Tools
@@ -62,10 +62,10 @@ public class ToolsInit {
     public static final Item BLUE_RUBY_SHOVEL = new ItemShovelMod("blue_ruby_shovel", TOOL_BLUE_RUBY);
     public static final Item BLUE_RUBY_SWORD = new ItemSwordMod("blue_ruby_sword", SWORD_TOOL_BLUE_RUBY);
     public static final Item BLUE_RUBY_AXE = new ItemAxeMod("blue_ruby_axe", SWORD_TOOL_BLUE_RUBY);
-    public static final Item BLACK_OPALE_PICKAXE = new ItemPickaxeMod("black_opale_pickaxe", TOOL_BLACK_OPALE);
-    public static final Item BLACK_OPALE_SHOVEL = new ItemShovelMod("black_opale_shovel", TOOL_BLACK_OPALE);
-    public static final Item BLACK_OPALE_SWORD = new ItemSwordMod("black_opale_sword", SWORD_TOOL_BLACK_OPALE);
-    public static final Item BLACK_OPALE_AXE = new ItemAxeMod("black_opale_axe", SWORD_TOOL_BLACK_OPALE);
+    public static final Item BLACK_OPAL_PICKAXE = new ItemPickaxeMod("black_opal_pickaxe", TOOL_BLACK_OPAL);
+    public static final Item BLACK_OPAL_SHOVEL = new ItemShovelMod("black_opal_shovel", TOOL_BLACK_OPAL);
+    public static final Item BLACK_OPAL_SWORD = new ItemSwordMod("black_opal_sword", SWORD_TOOL_BLACK_OPAL);
+    public static final Item BLACK_OPAL_AXE = new ItemAxeMod("black_opal_axe", SWORD_TOOL_BLACK_OPAL);
 
 
 }

@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "underminerals:items/black_opal_axe"
+    }
+}

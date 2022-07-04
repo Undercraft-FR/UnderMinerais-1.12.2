@@ -1,0 +1,6 @@
+{
+	"parent": "block/cube_all",
+	"textures": {
+		"all": "underminerals:blocks/green_ruby_block"
+	}
+}

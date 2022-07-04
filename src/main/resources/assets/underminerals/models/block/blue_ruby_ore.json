@@ -1,0 +1,7 @@
+{
+	"parent": "underminerals:block/ore",
+	"textures": {
+		"overlay": "underminerals:blocks/blue_ruby_ore",
+		"particle": "underminerals:blocks/blue_ruby_ore"
+	}
+}

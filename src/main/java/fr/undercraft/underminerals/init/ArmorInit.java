@@ -27,7 +27,7 @@ public class ArmorInit {
     public static final ItemArmor.ArmorMaterial ARMOR_RED_RUBY = EnumHelper.addArmorMaterial("armor_red_ruby", Reference.MODID + ":red_ruby", 115, new int[] {13, 15, 14, 12}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 4.0f);
     public static final ItemArmor.ArmorMaterial ARMOR_GREEN_RUBY = EnumHelper.addArmorMaterial("armor_green_ruby", Reference.MODID + ":green_ruby", 115, new int[] {13, 15, 14, 12}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 4.0f);
     public static final ItemArmor.ArmorMaterial ARMOR_BLUE_RUBY = EnumHelper.addArmorMaterial("armor_blue_ruby", Reference.MODID + ":blue_ruby", 115, new int[] {13, 15, 14, 12}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 4.0f);
-    public static final ItemArmor.ArmorMaterial ARMOR_BLACK_OPALE = EnumHelper.addArmorMaterial("armor_black_opale", Reference.MODID + ":black_opale", 125, new int[] {15, 17, 16, 14}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 4.5f);
+    public static final ItemArmor.ArmorMaterial ARMOR_BLACK_OPAL = EnumHelper.addArmorMaterial("armor_black_opal", Reference.MODID + ":black_opal", 125, new int[] {15, 17, 16, 14}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 4.5f);
 
     public static final Item GRENA_HELMET = new ArmorMod("grena_helmet", ARMOR_GRENA,1, EntityEquipmentSlot.HEAD);
     public static final Item GRENA_CHESTPLATE = new ArmorMod("grena_chestplate", ARMOR_GRENA,1,EntityEquipmentSlot.CHEST);
@@ -57,9 +57,9 @@ public class ArmorInit {
     public static final Item BLUE_RUBY_CHESTPLATE = new ArmorMod("blue_ruby_chestplate", ARMOR_BLUE_RUBY,1,EntityEquipmentSlot.CHEST);
     public static final Item BLUE_RUBY_LEGGINGS = new ArmorMod("blue_ruby_leggings", ARMOR_BLUE_RUBY,2,EntityEquipmentSlot.LEGS);
     public static final Item BLUE_RUBY_BOOTS = new ArmorMod("blue_ruby_boots", ARMOR_BLUE_RUBY,1,EntityEquipmentSlot.FEET);
-    public static final Item BLACK_OPALE_HELMET = new ArmorMod("black_opale_helmet", ARMOR_BLACK_OPALE,1, EntityEquipmentSlot.HEAD);
-    public static final Item BLACK_OPALE_CHESTPLATE = new ArmorMod("black_opale_chestplate", ARMOR_BLACK_OPALE,1,EntityEquipmentSlot.CHEST);
-    public static final Item BLACK_OPALE_LEGGINGS = new ArmorMod("black_opale_leggings", ARMOR_BLACK_OPALE,2,EntityEquipmentSlot.LEGS);
-    public static final Item BLACK_OPALE_BOOTS = new ArmorMod("black_opale_boots", ARMOR_BLACK_OPALE,1,EntityEquipmentSlot.FEET);
+    public static final Item BLACK_OPAL_HELMET = new ArmorMod("black_opal_helmet", ARMOR_BLACK_OPAL,1, EntityEquipmentSlot.HEAD);
+    public static final Item BLACK_OPAL_CHESTPLATE = new ArmorMod("black_opal_chestplate", ARMOR_BLACK_OPAL,1,EntityEquipmentSlot.CHEST);
+    public static final Item BLACK_OPAL_LEGGINGS = new ArmorMod("black_opal_leggings", ARMOR_BLACK_OPAL,2,EntityEquipmentSlot.LEGS);
+    public static final Item BLACK_OPAL_BOOTS = new ArmorMod("black_opal_boots", ARMOR_BLACK_OPAL,1,EntityEquipmentSlot.FEET);
     
 }

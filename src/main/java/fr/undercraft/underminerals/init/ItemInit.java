@@ -14,7 +14,6 @@ import java.util.List;
 public class ItemInit
 {
     public static List<Item> ITEMS = new ArrayList<>();
-    
 
 
     //Materiaux
@@ -26,14 +25,8 @@ public class ItemInit
     public static final Item RED_RUBY = new ItemBase("red_ruby");
     public static final Item GREEN_RUBY = new ItemBase("green_ruby");
     public static final Item BLUE_RUBY = new ItemBase("blue_ruby");
-    public static final Item BLACK_OPALE = new ItemBase("black_opale");
+    public static final Item BLACK_OPAL = new ItemBase("black_opal");
 
-    //Armors
-    /*public static final Item TUTO_HELMET = new ArmorMod("tuto_helmet", ARMOR_TUTO, 1, EntityEquipmentSlot.HEAD);
-    public static final Item TUTO_CHESTPLATE = new ArmorMod("tuto_chestplate", ARMOR_TUTO, 1, EntityEquipmentSlot.CHEST);
-    public static final Item TUTO_LEGGINGS = new ArmorMod("tuto_leggings", ARMOR_TUTO, 2, EntityEquipmentSlot.LEGS);
-    public static final Item TUTO_BOOTS = new ArmorMod("tuto_boots", ARMOR_TUTO, 1, EntityEquipmentSlot.FEET);
-    */
 
     
 }

@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "underminerals:items/red_ruby_chestplate"
+    }
+}

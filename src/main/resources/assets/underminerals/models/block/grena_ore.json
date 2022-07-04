@@ -1,0 +1,7 @@
+{
+	"parent": "underminerals:block/ore",
+	"textures": {
+		"overlay": "underminerals:blocks/grena_ore",
+		"particle": "underminerals:blocks/grena_ore"
+	}
+}
